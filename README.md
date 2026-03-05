@@ -9,7 +9,7 @@ This is a **Quiz Application** built using **Java Spring Boot** with a **microse
 
 The diagram below illustrates the high-level architecture and how requests flow from a client through the API Gateway to the relevant microservices. The Quiz Service depends on the Question Service to fetch questions when creating a quiz or calculating scores.
 
-![Microservices Architecture Diagram](path/to/your/generated/architecture_diagram.png)
+![Microservices Architecture Diagram](https://github.com/LIKHITH-M/Quiz-Application/blob/main/quiz-workflow.png)
 
 1. **Client** sends a request to the **API Gateway**.
 2. **API Gateway** uses Eureka to discover the target service and routes the request.
